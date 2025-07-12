@@ -9,7 +9,7 @@ class App extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    const title = 'new app';
+    const title = 'aerobolt';
     return MaterialApp(
       title: title,
       theme: ThemeData(
