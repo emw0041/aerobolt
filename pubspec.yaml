@@ -1,22 +1,28 @@
-name: new_app
-description: A new app.
+name: aerobolt
+description: Calculates bolted joint loads IAW NASA-STD-5020
 
 publish_to: 'none'
 
 version: 0.1.0+1
 
 environment:
-  sdk: ">=2.12.0 <3.0.0"
+  sdk: ">=3.0.0 <4.0.0"
 
 dependencies:
   cupertino_icons: ^1.0.2
   flutter:
     sdk: flutter
+  flutter_riverpod: ^2.6.1
+  riverpod_annotation: ^2.6.1
 
 dev_dependencies:
-  flutter_lints: ^1.0.3
+  build_runner: ^2.4.9
+  custom_lint: ^0.6.4
+  flutter_lints: ^4.0.0
   flutter_test:
     sdk: flutter
+  riverpod_generator: ^2.4.0
+  riverpod_lint: ^2.3.10
 
 flutter:
   uses-material-design: true
